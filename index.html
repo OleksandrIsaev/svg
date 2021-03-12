@@ -68,45 +68,44 @@
 </head>
 <body>
               
-    <svg width="300" height="200" viewBox="0 0 300 200">
-        <defs>
-           <linearGradient id="Gradient-1" x1="1%" y1="3%" x2="10%" y2="3%" spreadMethod="repeat" >
-             <stop offset="50%" stop-color= "#b1dcf1" />
-             <stop offset="50%" stop-color= "#7dc4e8" />
-      
-      
-           </linearGradient>
-      
-           <linearGradient id="repeat"xlink:href="#Gradient-1" spreadMethod="repeat" />
-        </defs>
-        <rect x="20" y="10"
-              width="300" height="200"
-              fill= "url(#repeat)"/>
-        <text x="65" y="80" Inline: filter="url(#shadow)" fill="#f4b400" font-family="Lobster" textLength="200" font-size="46" font-weight="bold" font-weight="italic" stroke="#fff" >
-                the Breaking
-        </text>
-        <text x="90" y="170"  Inline: filter="url(#shadow)" fill= "url(#newpattern)" font-family="Lobster" textLength="137" font-size="90" font-weight="bold" stroke="#fff" >
-                  Bad
-        </text>
-         <pattern id="newpattern"
-                   x="0" y="0" width="10" height="12"
-                   patternUnits="userSpaceOnUse" >
-                  <g fill="#fff"  fill-opacity="1">
-                    <circle cx="3" cy="3" r="3" fill="#fff"  fill-opacity="1">
-                  </g>
-                    
-          </pattern>
-        
-        <filter id="shadow">
-        <feDropShadow 
-          dx="7"
-          dy="7"
-          stdDeviation="2"
-          floodColor="#8f8f8f"
-          floodOpacity="0.5"
-        />
-      </filter>
-      </svg>
+  <svg width="300" height="200" viewBox="0 0 300 200">
+    <defs>
+       <linearGradient id="Gradient-1" x1="1%" y1="3%" x2="10%" y2="3%" spreadMethod="repeat" >
+         <stop offset="50%" stop-color= "#b1dcf1" />
+         <stop offset="50%" stop-color= "#7dc4e8" />
+  
+  
+       </linearGradient>
+  
+       <linearGradient id="repeat"xlink:href="#Gradient-1" spreadMethod="repeat" />
+    </defs> 
+    <rect x="20" y="10"
+          width="300" height="200"
+          fill= "url(#repeat)"/>
+    <text x="65" y="80" Inline: filter="url(#shadow)" fill="#f4b400" font-family="Lobster" textLength="200" font-size="46" font-weight="bold" font-weight="italic" stroke="#fff" >
+            the Breaking
+    </text>
+    <text x="90" y="170"  Inline: filter="url(#shadow)" fill= "url(#newpattern)" font-family="Lobster" textLength="137" font-size="90" font-weight="bold" stroke="#fff" >
+              Bad
+    </text>
+    
+     <pattern id="newpattern"
+               x="0" y="0" width="10" height="12"
+               patternUnits="userSpaceOnUse" >
+               <circle cx="10" cy="10" r="200" fill="#ff401a"  fill-opacity="1" />
+               <circle cx="3" cy="3" r="3" fill="#fff"  fill-opacity="1">
+      </pattern>
+    
+    <filter id="shadow">
+    <feDropShadow 
+      dx="7"
+      dy="7"
+      stdDeviation="2"
+      floodColor="#8f8f8f"
+      floodOpacity="0.5"
+    />
+  </filter>
+  </svg>
   
 </body>
 </html>
